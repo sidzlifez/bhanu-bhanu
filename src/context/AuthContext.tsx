@@ -18,8 +18,8 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 // Default admin accounts
 const DEFAULT_USERS = [
-  { id: '1', email: 'admin@school.com', password: 'admin123', name: 'Administrator', role: 'admin' as const },
-  { id: '2', email: 'principal@school.com', password: 'principal123', name: 'Principal', role: 'admin' as const },
+  { id: '1', email: 'sidzlifez@gmail.com', password: '@reign12345', name: 'Administrator', role: 'admin' as const },
+  { id: '2', email: 'sidzlifezomg1@gmail.com', password: '@reign12345', name: 'Principal', role: 'admin' as const },
 ];
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
