@@ -34,8 +34,8 @@ import type { Teacher } from '@/types';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const subjects = ['Mathematics', 'Physics', 'Chemistry', 'Biology', 'English', 'History', 'Geography', 'Computer Science'];
-const classes = ['9A', '9B', '9C', '10A', '10B', '11A', '11B', '12A', '12B'];
+const subjects = ['Mathematics', 'Physics', 'Chemistry', 'Biology', 'English', 'History/Civics', 'Geography/Economics', 'Computer Science', 'EVS', 'Health Education'];
+const classes = ['NUR', 'KG', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
 
 export function Teachers() {
   const { teachers, addTeacher, updateTeacher, deleteTeacher } = useDatabase();
