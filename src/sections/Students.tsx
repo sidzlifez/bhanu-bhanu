@@ -33,7 +33,7 @@ import type { Student } from '@/types';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const classes = ['9A', '9B', '9C', '10A', '10B', '11A', '11B', '12A', '12B'];
+const classes = ['NUR', 'KG', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
 
 export function Students() {
   const { students, addStudent, updateStudent, deleteStudent } = useDatabase();
