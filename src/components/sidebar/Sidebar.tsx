@@ -31,7 +31,7 @@ interface SidebarProps {
 // CONFIGURATION: Change your school name here!
 // ============================================
 const SCHOOL_CONFIG = {
-  name: 'EduCore',
+  name: 'Bhanu Bhakta Nepali Pro. Sec. School',
   logo: BookOpen,
   tagline: 'School Management',
 };
